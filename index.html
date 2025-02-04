@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Profile Card</title>
   <link rel="stylesheet" href="index.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,9 +13,9 @@
   <div class="container">
     <div class="left">
       <div class="selfie">
-        <img src="images/selfie.jpg">
+        <img src="images/selfie.jpg" data-testid="profilePicture">
       </div>
-      <div class="socials">
+      <div class="socials" data-testid="socialLinks">
         <a href="https://github.com/Nimroddddd/"><img src="images/GitHub_Logo.png"></a>
         <a href="https://x.com/a_miinnnn" target="_blank"><svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" 
           viewBox="0 0 543.684 543.684"
@@ -47,12 +47,12 @@
       </div>
     </div>
     <div class="right">
-      <h3 class="time">00:00</h3>
-      <h2 class="name">Amin Abdulkabir</h2>
-      <p><span class="bold">Job Title:</span> Fullstack Developer</p>
-      <p><span class="bold">Current Location:</span> Kwara State, Nigeria.</p>
-      <p><span class="bold">Email Address:</span> min123kabir@gmail.com</p>
-      <p><span class="bold">About me:</span> I am a tech-savvy individual with in-depth knowledge on programming and problem
+      <h3 class="time" data-testid="currentTimeUTC">00:00</h3>
+      <h2 class="name" data-testid="fullName">Amin Abdulkabir</h2>
+      <p data-testid="jobTitle"><span class="bold">Job Title:</span> Fullstack Developer</p>
+      <p data-testid="currentLocation"><span class="bold">Current Location:</span> Kwara State, Nigeria.</p>
+      <p data-testid="emailAddress"><span class="bold">Email Address:</span> min123kabir@gmail.com</p>
+      <p data-testid="shortBio"><span class="bold">About me:</span> I am a tech-savvy individual with in-depth knowledge on programming and problem
          solving. I have a deep passion in programming, and am actively in pursuit of more and more knowledge. I have a decent level of
          understanding on coding on both front-end and back-end using JavaScript (mostly React and NodeJs). While I might not be perfect 
          and know everything yet, I strongly believe that practice makes perfect, hard work leads to success.
