@@ -5,6 +5,9 @@ p {
 
 body {
   background-color: beige;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
 }
 
 .container {
@@ -28,7 +31,7 @@ body {
 .right {
   display: flex;
   flex-direction: column;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 img {
@@ -77,10 +80,6 @@ img {
     flex-direction: column;
   }
 
-  .right {
-    align-items: center;
-  }
-
   .left {
     /* align-items: center; */
     max-width: 100%;
@@ -96,6 +95,16 @@ img {
   .container {
     margin: 50px 0;
   }
+}
+
+h3 {
+  margin: 0;
+}
+
+.time {
+  font-family: "Lobster", serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 
